@@ -83,4 +83,4 @@ Spotify Data Analysis Using PostgreSQL
 - **Email**: singhishita@gmail.com
 
 ---
-🚀 *Feel free to fork this repository and explore further insights!*
+Let’s connect! If you find this analysis insightful, feel free to star ⭐ the repo & share your thoughts! 🎵
