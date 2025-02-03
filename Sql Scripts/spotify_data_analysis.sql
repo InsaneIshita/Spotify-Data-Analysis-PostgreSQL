@@ -6,6 +6,16 @@ FROM information_schema.columns
 WHERE table_name = 'spotify';
 
 -- Performing EDA
+SELECT DISTINCT track , MAX(views) as max_views
+FROM spotify 
+GROUP BY track
+ORDER BY MAX(views) DESC;
+
+SELECT DISTINCT track , MAX(likes) max_likes
+FROM spotify 
+GROUP BY track
+ORDER BY MAX(likes) DESC;
+
 SELECT DISTINCT artist FROM spotify;
 SELECT DISTINCT album_type FROM spotify;
 SELECT DISTINCT channel FROM spotify;
